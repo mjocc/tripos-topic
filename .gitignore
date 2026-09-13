@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+
+# Downloaded / cached exam papers — not redistributed
+pdf_cache/
+*.pdf
+
+# Generated study material and analysis output
+results/
+*.tex
+*.aux
+*.log
+*.out
+*.txt
+!requirements.txt
+files_manifest.json
+
+# Local editor / tooling
+.claude/
