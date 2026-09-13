@@ -3,6 +3,12 @@
 Score how often a topic comes up in Cambridge CS Tripos past papers, using the
 Claude API. Two scripts: one to scrape + analyse, one to browse the results.
 
+![The Tripos Topic Browser TUI showing per-question relevance scores and reasoning](docs/tui.png)
+
+*`tripos_browse.py` — the Textual TUI: filterable file list, per-question 0–3
+relevance scores with Claude's reasoning, and a detail pane linking back to the
+source paper.*
+
 ## Setup
 
 ```sh
